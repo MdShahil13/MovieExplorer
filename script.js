@@ -5,7 +5,7 @@ let output = document.querySelector(".output");
 
 btn.addEventListener("click", async () =>{
     let movie = movieName.value;
-    let apikey = "6ef53f59";
+    let apikey = "Your_API_KEY";
 
     if(movie == ""){
         output.innerHTML = "<p> Please Enter Your Movie <p>";
@@ -44,3 +44,4 @@ btn.addEventListener("click", async () =>{
     }
 
 });
+
